@@ -158,6 +158,9 @@ TW_MAX_BRIGHTNESS := 2048
 # USB
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
+# Temp
+TW_CUSTOM_CPU_TEMP_PATH := sys/devices/virtual/thermal/thermal_zone5/temp
+
 # Storage
 RECOVERY_SDCARD_ON_DATA := true
 
