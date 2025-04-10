@@ -1,3 +1,5 @@
+import /init.decrypt.rc
+
 # Modules
 on early-init
     insmod /vendor/lib/modules/tp_ilitek.ko
