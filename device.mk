@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
 
+# Keystore2
+PRODUCT_PACKAGES += \
+    android.system.keystore2
+
 # Update Engine
 PRODUCT_PACKAGES += \
     update_engine \
